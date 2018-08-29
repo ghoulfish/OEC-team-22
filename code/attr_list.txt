@@ -1,0 +1,63 @@
+one list for the attributes first appear in which system, one for the attributes name
+
+system: 17 attributes
+['11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '16 Cygni', ['CFBDSIR2149', 'CFBDSIR J214947.2-040308.9', 'CFBDS J214947-040308'],
+ ['CFBDSIR2149', 'CFBDSIR J214947.2-040308.9', 'CFBDS J214947-040308'], 'Kepler-16', 'Kepler-16', 'Kepler-16', 'Kepler-16', 'Kepler-16', 'Kepler-16',
+ ['KIC 8435766', 'Kepler-78', '2MASS 19345800+4426539', 'TYC 3147-188-1']]
+
+['distance', 'distance_attrs', 'star', 'name', 'declination', 'videolink', 'rightascension', 'binary', 'planet', 'spectraltype', 'magH', 'magK', 'magJ',
+ 'magH_attrs', 'magJ_attrs', 'magK_attrs', 'name_attrs']
+
+comment: “planet” and “name_attrs” need to be discussed tomorrow
+
+
+binary: 40 attributes (you don’t need it)
+['positionangle_attrs', 'binary', 'star', 'name', 'positionangle', 'system', 'separation', 'separation_attrs', 'semimajoraxis', 'period_attrs', 'period',
+ 'planet', 'transittime_attrs', 'transittime', 'inclination_attrs', 'semimajoraxis_attrs', 'inclination', 'periastrontime', 'periastrontime_attrs',
+ 'periastron', 'eccentricity', 'eccentricity_attrs', 'ascendingnode_attrs', 'ascendingnode', 'periastron_attrs', 'magJ', 'magK', 'magH', 'magH_attrs',
+ 'magJ_attrs', 'magR', 'magV', 'magB', 'magK_attrs', 'magR_attrs', 'longitude', 'magB_attrs', 'magV_attrs', 'magI', 'magI_attrs']
+
+['16 Cygni AC', '16 Cygni AC', '16 Cygni AC', '16 Cygni AC', '16 Cygni AC', '16 Cygni AC', '16 Cygni AC', '16 Cygni AC', '2M 1938+4603', '2M 1938+4603',
+ '2M 1938+4603', '2M 1938+4603', '2M 1938+4603', '2M 1938+4603', '2M 1938+4603', '2M 1938+4603', '2M 1938+4603', '30 Ari A', '30 Ari A', '30 Ari A', '30 Ari A',
+ 'GJ 3305', 'GJ 3305', 'GJ 3305', 'GJ 3305', 'FW Tau', 'FW Tau', 'FW Tau', 'HU Aqr', 'HU Aqr', 'HU Aqr', 'HU Aqr', 'HU Aqr', 'HU Aqr', 'Kepler-16', 'Kepler-34',
+ 'KOI-1257', 'KOI-1257', 'ROXs 42 B', 'ROXs 42 B']
+
+comments:”planet” need to be discussed, there might be planets under binary
+
+
+star：31 attributes
+['mass_attrs', 'age_attrs', 'magV_attrs', 'radius_attrs', 'radius', 'planet', 'temperature', 'temperature_attrs', 'magB_attrs', 'metallicity_attrs',
+ 'metallicity', 'magH_attrs', 'magJ_attrs', 'spectraltype', 'name', 'age', 'magV', 'magK', 'magJ', 'magH', 'mass', 'magB', 'magK_attrs', 'magR', 'magI',
+ 'spectraltype_attrs', 'magR_attrs', 'magI_attrs', 'magU', 'magU_attrs', 'name_attrs']
+
+['11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com',
+ '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '11 Com', '14 And', '14 And', '1RXS1609', '24 Sex', '2MASS J0219-3925',
+ 'Alpha Centauri A', 'CoRoT-25', 'KIC 8435766']
+
+ comments:2MASS J0219-3925:<age lowerlimit="0.030" upperlimit="0.040" />     typo???
+		"name_attrs" need to be discussed tomorrow
+ 
+ 
+ planet: 61 attributes
+ ['lastupdate', 'periastrontime', 'mass_attrs', 'name', 'semimajoraxis', 'discoveryyear', 'periastrontime_attrs', 'discoverymethod', 'eccentricity_attrs',
+ 'list', 'period', 'periastron_attrs', 'system', 'mass', 'period_attrs', 'eccentricity', 'semimajoraxis_attrs', 'periastron', 'description', 'meananomaly',
+ 'inclination_attrs', 'inclination', 'separation', 'image', 'imagedescription', 'radius', 'temperature', 'temperature_attrs', 'spectraltype_attrs',
+ 'separation_attrs', 'magH_attrs', 'magJ_attrs', 'spectraltype', 'positionangle_attrs', 'positionangle', 'magK', 'magJ', 'magH', 'magK_attrs',
+ 'istransiting', 'radius_attrs', 'ascendingnode_attrs', 'ascendingnode', 'longitude', 'longitude_attrs', 'transittime', 'transittime_attrs',
+ 'meananomaly_attrs', 'maximumrvtime', 'maximumrvtime_attrs', 'impactparameter_attrs', 'impactparameter', 'spinorbitalignment',
+ 'spinorbitalignment_attrs', 'age_attrs', 'age', 'metallicity', 'new', 'name_attrs', 'magI_attrs', 'magI']
+
+ ['11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b',
+ '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '11 Com b', '14 Her b', '16 Cygni B b', '16 Cygni B b', '1RXS1609 b',
+ '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b',
+ '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1RXS1609 b', '1SWASP J1407 b', '2MASS J0219-3925 B', '51 Eri b', '51 Eri b',
+ '55 Cnc b', '55 Cnc b', '55 Cnc e', '55 Cnc e', '61 Vir b', 'BD-114672 b', 'BD-114672 b', 'EPIC 201295312 b', 'EPIC 201295312 b', 'HAT-P-27 b',
+ 'HAT-P-7 b', 'HD 100546 b', 'HD 100546 b', 'HR 8799 b', 'Kepler-1000 b', 'KIC 8435766 b', 'UScoCTIO 108 b', 'UScoCTIO 108 b']
+
+comments: "name_attrs" need to be discussed tomorrow
+
+ 
+ 
+get_xml   copy all and paste
+
+dboec three classes

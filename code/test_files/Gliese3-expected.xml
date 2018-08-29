@@ -1,0 +1,16 @@
+<system>
+	<name>Gliese 3</name>
+	<distance>6.21</distance>
+	<star>
+		<name>Gliese 581</name>
+		<planet>
+			<name>Gliese 581 c</name>
+		</planet>
+	</star>
+	<star>
+		<name>Gliese 3</name>
+		<planet>
+			<name>Gliese 581 e</name>
+		</planet>
+	</star>
+</system>
